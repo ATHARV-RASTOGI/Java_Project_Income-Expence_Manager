@@ -40,7 +40,7 @@ public class ExpenseGUI extends JFrame{
 
         JPanel inputPanel=new JPanel(new FlowLayout(FlowLayout.LEFT, 10 ,10));
         // for the drop down declaration of values
-        typeComboBox=new JComboBox<>(new String[]{"Income","Expence"});
+        typeComboBox=new JComboBox<>(new String[]{"Income","Expense"});
         descriptionField=new JTextField(15);
         amountField=new JTextField(8);
         JButton addButton=new JButton("Add Transaction");
